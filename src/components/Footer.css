@@ -1,0 +1,28 @@
+.footer {
+  color: white;
+  position: relative;
+  bottom: 70rem;
+  left: 2rem;
+}
+.info h2{
+color: grey;
+font-size: 20px;
+}
+.doc{
+    position: relative;
+    left: 41rem;
+    bottom: 5rem;
+}
+.doc p{
+    font-size: 17px;
+    margin-top: 0.4rem;
+}
+.license{
+    position: relative;
+    left: 55rem;
+     bottom: 12rem;
+}
+.license p{
+    font-size: 17px;
+    margin-top: 0.3rem;
+}

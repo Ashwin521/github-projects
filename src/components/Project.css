@@ -4,13 +4,16 @@
   top: 3rem;
   font-size: 30px;
 }
+.upperText h2{
+  margin-left: 2rem;
+}
 .upperText p {
   height: 40px;
   width: 220px;
 }
 .upperText input::placeholder {
   color: gray;
-  font-size: 12px;
+  font-size: 18px;
 }
 #inp:hover {
   border: 2px solid purple;
@@ -33,6 +36,7 @@
 .project-card {
   /* background-color: ; */
   border: 2px solid white;
+  margin-left: 0.3rem;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
@@ -70,7 +74,9 @@ p {
   text-align: center;
   margin-top: 2em;
 }
-#input {
+#inp {
   height: 35px;
-  width: 60%;
+  width: 20%;
+  margin-left: 35rem;
+  /* background-color: red; */
 }

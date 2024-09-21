@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Project.css";
 import Footer from "./Footer";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Project = () => {
   const [data, setData] = useState([]);
@@ -79,7 +80,12 @@ const Project = () => {
           <p id="err">No projects available</p>
         )}
       </div>
-      <Footer/>
+      <div className="connect">
+        <div className="linkedin">
+          <i class="fa-brands fa-linkedin"></i>{" "}
+        </div>
+      </div>
+      <Footer />
     </>
   );
 };

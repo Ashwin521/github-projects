@@ -143,3 +143,28 @@ body {
   color: purple;
 
 }
+#linkedin{
+  background-color: rgb(17, 98, 197);
+  height: 30px;
+
+  width: 50px;
+}
+.connect{
+  margin-left: 40rem;
+}
+.connect p{
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.connect a:hover{
+  background: fill;
+}
+.connect p:hover{
+  color: rgb(0, 255, 17);
+}
+#github{
+  background-color:rgba(14, 230, 215, 0.792) ;
+  height: 30px;
+  width: 50px;
+  margin-left: 1rem;
+}

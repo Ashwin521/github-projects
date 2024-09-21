@@ -5,7 +5,7 @@
 }
 
 nav {
-  background-color: #333;
+  background-color: rgba(167, 154, 154, 0.228);
   padding: 10px;
 }
 
@@ -15,7 +15,9 @@ nav ul {
   align-items: center;
   list-style-type: none;
 }
-
+li:hover{
+  color: purple;
+}
 nav ul li{
     position: relative;
     left: 40rem;

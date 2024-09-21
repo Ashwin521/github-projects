@@ -8,6 +8,9 @@ import fifth from "../assets/fifth.png";
 import sixth from "../assets/sixth.png";
 import seventh from "../assets/seventh.png";
 import Footer from "./Footer";
+import eighth from "../assets/eighth.svg";
+import ninth from "../assets/github.svg";
+
 const Home = () => {
   return (
     <>
@@ -48,7 +51,9 @@ const Home = () => {
         </div>
         <div className="info-2">
           <p id="o1">Open source</p>
-          <p id="o2">This project is open source and you can contribute to it</p>
+          <p id="o2">
+            This project is open source and you can contribute to it
+          </p>
         </div>
         <div className="info-3">
           <p id="s1">Share your profile</p>
@@ -56,10 +61,21 @@ const Home = () => {
         </div>
         <div className="info-4">
           <p id="f1">Free to use</p>
-          <p id="f2">This project is free to use and you dont have to pay anythig</p>
+          <p id="f2">
+            This project is free to use and you dont have to pay anythig
+          </p>
         </div>
       </div>
       <Footer />
+      <div className="connect">
+        <p>Connect with me</p>
+        <a href="https://www.linkedin.com/feed/">
+          <img src={eighth} id="linkedin" />
+        </a>
+        <a href="https://github.com/Ashwin521">
+          <img src={ninth} id="github" />
+        </a>
+      </div>
     </>
   );
 };

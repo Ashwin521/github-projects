@@ -1,5 +1,5 @@
 .upperText {
-  position: relative;
+  /* position: relative; */
   color: white;
   left: 30rem;
   top: 3rem;
@@ -67,11 +67,11 @@ p {
   cursor: pointer;
   height: 30px;
   width: 40%;
- 
+
   text-align: center;
   margin-top: 2em;
 }
-#input{
+#input {
   height: 35px;
   width: 60%;
 }

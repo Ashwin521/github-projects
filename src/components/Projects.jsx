@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Project.css";
+import Footer from "./Footer";
 
 const Project = () => {
   const [data, setData] = useState([]);
@@ -78,6 +79,7 @@ const Project = () => {
           <p id="err">No projects available</p>
         )}
       </div>
+      <Footer/>
     </>
   );
 };

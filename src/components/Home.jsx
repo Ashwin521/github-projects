@@ -11,75 +11,55 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <>
-      <div className="first ">
-        <div className="text">
-          {" "}
-          <h1>Learn.</h1>
-          <h1>Build.</h1>
-          <h1>Share.</h1>
-        </div>
-
-        <div className="p">
-          <p>
-            ProectShut is a platfom where you can share your open source
-            projects with the world
-          </p>
-        </div>
-        <div className="btn">
-          <button>Browse Projects</button>
-        </div>
+      <div className="text">
+        <h1>Learn</h1>
+        <h1>Build</h1>
+        <h1>Share.</h1>
+        <p>
+          ProjectsHut is a platform where you can share your open source project
+          woth the world
+        </p>
       </div>
-      <div className="images-1">
-        <div className="img-1">
+      <div className="image">
+        <div className="img-col1">
           <img src={first} alt="" />
-        </div>
-        <div className="img-2">
           <img src={second} alt="" />
         </div>
-      </div>
-      <div className="images-2">
-        <div className="img-3">
+        <div className="img-col2">
           <img src={third} alt="" />
-        </div>
-        <div className="img-4">
           <img src={fourth} alt="" />
-        </div>
-        <div className="img-5">
           <img src={fifth} alt="" />
         </div>
-      </div>
-      <div className="images-3">
-        <div className="img-6">
+        <div className="img-col3">
           <img src={sixth} alt="" />
-        </div>
-        <div className="img-7">
           <img src={seventh} alt="" />
         </div>
       </div>
-      <div className="bottom">
-        <p>Why should you use this?</p>
-        <p id="p2">Showcase Your projects</p>
+      <div className="mid">
+        <div className="mid-text">
+          <p id="p1">Why should you use this project</p>
+          <p id="p2">Showcase your project</p>
+        </div>
       </div>
-      <div className="git">
-        <h2 id="h4">Add Github link</h2>
-        <h4 id="h2">
-          You can add your GitHub repository link to your profile.
-        </h4>
+      <div className="ex-info">
+        <div className="info-1">
+          <p id="g1">Add Github link</p>
+          <p id="g2">You can add your Github repository link to your profile</p>
+        </div>
+        <div className="info-2">
+          <p id="o1">Open source</p>
+          <p id="o2">This project is open source and you can contribute to it</p>
+        </div>
+        <div className="info-3">
+          <p id="s1">Share your profile</p>
+          <p id="s2">Share your profile with your friends and colleagues</p>
+        </div>
+        <div className="info-4">
+          <p id="f1">Free to use</p>
+          <p id="f2">This project is free to use and you dont have to pay anythig</p>
+        </div>
       </div>
-
-      <div className="open">
-        <h2>Open source</h2>
-        <h4>This project is open source and you can contribute to it</h4>
-      </div>
-      <div className="share">
-        <h2>Share</h2>
-        <h4>Share your profile with your friends and colleagues</h4>
-      </div>
-      <div className="free">
-        <h2>Free to use</h2>
-        <h4>This project is free to use and you dont have to pay anything</h4>
-      </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
